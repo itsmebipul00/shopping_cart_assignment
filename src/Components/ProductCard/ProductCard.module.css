@@ -1,0 +1,21 @@
+.productImg{
+    aspect-ratio: 1/1.3;
+}
+
+@media(max-width: 40em){
+    .productCard:first-of-type{
+        margin-top: 4rem;
+    }
+}
+
+.price{
+    display: flex;
+    gap: 0.25rem;
+}
+
+.productDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-bottom: 2rem;
+}

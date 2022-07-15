@@ -1,0 +1,79 @@
+.cart_page{
+    display: flex;
+}
+
+.price_details{
+    width: 40%;
+}
+
+.cartItems{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media(max-width: 60em){
+    .cart_page{
+        flex-direction: column;
+    }
+    .price_details{
+        width: 100%;
+    }
+    .cartItems{
+        width: 100%;
+    }
+}
+
+.cartItem{
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+.cartItem:not(:last-child){
+    border-bottom: 2px dashed gray;
+}
+
+
+
+.image_wrapper{
+    width: 100%;
+    width: 10rem;
+
+}
+
+.cartItem_img{
+    width: 100%;
+}
+
+.item_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.price_info{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.cartpage_ctas{
+    display: flex;
+    gap: 1rem;
+    margin-top: auto;
+}
+
+.price_details{
+    padding: 2rem;
+    border: 1px dashed gainsboro;
+    height: fit-content;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.price_subInfo{
+    display: flex;
+    justify-content: space-between;
+}

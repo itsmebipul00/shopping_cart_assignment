@@ -1,0 +1,10 @@
+.header_fixed{
+    position: fixed;
+    padding: 1rem 2rem;
+    background-color: hsl(217deg 87% 55%); ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+}
+
